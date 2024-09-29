@@ -10,9 +10,9 @@
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://linkedin.com/in/kiranrathod05" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="kiranrathod05" height="30" width="40" /></a>
-<a href="https://www.youtube.com/c/https://youtube.com/@kiranrathod05" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="kiranrathod05" height="30" width="40" /></a>
+<a href="https://www.youtube.com/c/@kiranrathod05" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="@kiranrathod05" height="30" width="40" /></a>
 <a href="https://www.leetcode.com/kiranrathod05" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="kiranrathod05" height="30" width="40" /></a>
-<a href="https://www.hackerearth.com/kiranrathod4299" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerearth.svg" alt="@kiranrathod4299" height="30" width="40" /></a>
+
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
