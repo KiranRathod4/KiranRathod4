@@ -13,6 +13,7 @@
 - Exploring **MLOps**, **LangChain**, and **AWS**
 - Passionate about solving real-world problems using AI
 - Ask me about Python, Data Science, or Solo Startups
+- Reach out : kiranrathod4299@gmail.com
 - Fun Fact: I love working on side projects & sharing my journey on LinkedIn
 
 ---
@@ -49,15 +50,6 @@
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white" />
   </a>
   
-</p>
-
----
-
-###  GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=KiranRathod4&show_icons=true&theme=radical" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=KiranRathod4&theme=radical" alt="GitHub Streak" />
 </p>
 
 
