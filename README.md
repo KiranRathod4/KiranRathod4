@@ -9,7 +9,7 @@
 
 ### 🧠 About Me
 
-- I’m currently building an **AI-powered resume screening app**
+- I’m currently building an **BookMatch - AI Reading Recommender**
 - Exploring **MLOps**, **LangChain**, and **AWS**
 - Passionate about solving real-world problems using AI
 - Ask me about Python, Data Science, or Solo Startups
