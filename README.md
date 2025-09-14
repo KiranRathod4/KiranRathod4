@@ -67,12 +67,3 @@ If you like my work and want to support my journey, you can buy me a coffee here
 </p>
 
 
-
-###  Recent Projects
-
-<!-- AUTO-GENERATED PROJECTS SECTION -->
-<a href="https://github.com/KiranRathod4/AI-powered-resume_agent">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=KiranRathod4&repo=AI-powered-resume_agent&theme=radical" />
-</a>
-
-<!-- Add more pinned repos here if needed -->
