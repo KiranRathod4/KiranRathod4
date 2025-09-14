@@ -15,6 +15,13 @@
 - Reach out : kiranrathod4299@gmail.com
 ---
 
+## ☕ Support Me  
+
+If you like my work and want to support my journey, you can buy me a coffee here:  
+
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/kiranrathod)
+
+
 ### 🛠️ Tech Stack
 
 <p align="left">
