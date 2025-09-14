@@ -11,11 +11,8 @@
 
 - I’m currently building an **Predictive Maintenance with MLOps**
 - Exploring **MLOps**, **LangChain**, and **AWS**
-- Passionate about solving real-world problems using AI
 - Ask me about Python, Data Science, or Solo Startups
 - Reach out : kiranrathod4299@gmail.com
-- Fun Fact: I love working on side projects & sharing my journey on LinkedIn
-
 ---
 
 ### 🛠️ Tech Stack
