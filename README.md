@@ -9,7 +9,7 @@
 
 ### 🧠 About Me
 
-- I'm currently building an **Predictive Maintenance with MLOps**
+- I'm currently building an **Chat with your codebase using RAG**
 - Exploring **MLOps**, **LangChain**, and **AWS**
 - Ask me about Python, Data Science, or Solo Startups
 - Reach out : kiranrathod4299@gmail.com
