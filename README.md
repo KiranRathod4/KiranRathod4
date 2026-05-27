@@ -3,13 +3,13 @@
   <img src="https://komarev.com/ghpvc/?username=KiranRathod4&label=Profile%20views&color=0e75b6&style=flat" alt="KiranRathod4" />
 </p>
 
-<p align="center"> Student | AI & ML | I talk to AIs more than humans</p>
+<p align="center"> Student | AI & ML , MLOps , DevOps | I talk to AIs more than humans</p>
 
 ---
 
 ### 🧠 About Me
 
-- I'm currently building an **Chat with your codebase using RAG**
+- I'm currently building an ** AI-Augmented-DevSecOps-Platform**
 - Exploring **MLOps**, **LangChain**, and **AWS**
 - Ask me about Python, Data Science, or Solo Startups
 - Reach out : kiranrathod4299@gmail.com
