@@ -9,7 +9,7 @@
 
 ### 🧠 About Me
 
-- I'm currently building an ** AI-Augmented-DevSecOps-Platform**
+- I'm currently building an **AI-Augmented-DevSecOps-Platform**
 - Exploring **MLOps**, **LangChain**, and **AWS**
 - Ask me about Python, Data Science, or Solo Startups
 - Reach out : kiranrathod4299@gmail.com
