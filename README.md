@@ -24,10 +24,10 @@
     <td width="50%" valign="top">
       <h3>Quick Profile</h3>
       <ul>
-        <li><strong>Role:</strong> DevOps | MLOps | AI Engineering</li>
+        <li><strong>Role:</strong> DevOps | MLOps | AI Engineering | QA Engineering</li>
         <li><strong>Stack:</strong> Python, AWS, Docker, Kubernetes, Terraform</li>
         <li><strong>AI Focus:</strong> LangChain Agents, MLflow, HuggingFace</li>
-        <li><strong>Exploring:</strong> DevSecOps, FinOps, Agentic AI</li>
+        <li><strong>Exploring:</strong> DevSecOps, Agentic AI</li>
         <li><strong>Contact:</strong> kiranrathod4299@gmail.com</li>
       </ul>
     </td>
@@ -51,7 +51,6 @@
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
 
 ---
 
@@ -83,8 +82,6 @@
 ### AI & Machine Learning
 
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![Keras](https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white)
 ![ScikitLearn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
