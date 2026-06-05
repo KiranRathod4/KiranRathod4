@@ -95,48 +95,13 @@
 
 ---
 
-## What I'm Building
-
-<div align="center">
-
-```
-+---------------------------+     +---------------------------+     +---------------------------+
-|                           |     |                           |     |                           |
-|    AI-DevSecOps           |     |    MLOps Pipeline         |     |    LangChain Agents       |
-|    Platform               |     |    Automation             |     |    on AWS                 |
-|                           | --> |                           | --> |                           |
-|  Trivy + SonarQube        |     |  DVC + MLflow             |     |  Autonomous AI agents     |
-|  security gates in CI/CD  |     |  + GitHub Actions         |     |  with memory & tools      |
-|  powered by AI analysis   |     |  full lifecycle           |     |  deployed on Lambda       |
-|                           |     |                           |     |                           |
-+---------------------------+     +---------------------------+     +---------------------------+
-         DevSecOps                       MLOps                          AI Engineering
-```
-
-</div>
-
----
-
-## My Approach
-
-```
-   CODE              SECURE             DEPLOY              OBSERVE
-   -----             ------             -------             -------
-   Python       -->  Trivy scan    -->  Docker image   -->  Prometheus
-   ML model     -->  SonarQube     -->  Kubernetes     -->  Grafana
-   LangChain    -->  SAST/DAST     -->  AWS Lambda     -->  MLflow
-   agent             gates              Helm chart          tracking
-```
-
----
-
 ## Principles I Work By
 
 > **"Automate everything that can be automated. Observe everything that runs. Secure everything that ships."**
 
 - If it is not in a pipeline, it does not exist
 - A model not monitored is a model not deployed
-- Security is not a phase — it is the whole pipeline
+- Security is not a phase, it is the whole pipeline
 - Infrastructure is code. Always.
 
 ---
