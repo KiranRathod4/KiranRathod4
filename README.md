@@ -1,13 +1,13 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=220&section=header&text=Kiran%20Rathod&fontSize=65&fontColor=ffffff&fontAlignY=38&desc=DevOps%20%7C%20MLOps%20%7C%20AI%20Engineer&descAlignY=58&descSize=22&animation=fadeIn" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./light.svg" />
+  <img alt="Kiran Rathod — DevOps · MLOps · QA Automation" src="./dark.svg" width="100%" />
+</picture>
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=7B61FF&center=true&vCenter=true&width=700&lines=Building+AI-Augmented-DevSecOps+Platforms;Automating+ML+Pipelines+end-to-end;CI%2FCD+%7C+Docker+%7C+Kubernetes+%7C+Terraform;LangChain+%7C+MLflow+%7C+Trivy+%7C+Prometheus" alt="Typing SVG" />
-</a>
-
-<p>
-  <img src="https://komarev.com/ghpvc/?username=KiranRathod4&label=Profile+Views&color=7B61FF&style=for-the-badge" />
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=KiranRathod4&label=Profile+Views&color=7C3AED&style=for-the-badge" />
   &nbsp;
-  <img src="https://img.shields.io/github/followers/KiranRathod4?label=Followers&style=for-the-badge&color=302b63&labelColor=0f0c29" />
+  <img src="https://img.shields.io/github/followers/KiranRathod4?label=Followers&style=for-the-badge&color=0F172A&labelColor=0f0c29" />
 </p>
 
 ---
@@ -18,16 +18,19 @@
   <tr>
     <td width="50%" valign="top">
       <h3>The Engineer</h3>
-      <p>I sit at the intersection of <strong>DevOps automation</strong>, <strong>ML systems</strong>, and <strong>AI engineering</strong>. I don't just train models — I build the pipelines, infrastructure, and platforms that make AI production-ready.</p>
-      <p>Currently building an <strong>AI-Augmented DevSecOps Platform</strong> that brings security, observability, and intelligence into every stage of the software lifecycle.</p>
+      <p>I work at the intersection of <strong>DevOps / MLOps automation</strong> and <strong>Quality Assurance</strong> — I build the pipelines and infrastructure that ship software reliably, and I test them thoroughly before they get there.</p>
+      <p>On one side: Docker, Kubernetes, Terraform, and CI/CD pipelines that turn infrastructure into code. On the other: manual test design and Selenium-driven automation that keeps releases honest.</p>
+      <p>Currently building <strong>Taiyaar</strong>, a placement-prep SaaS platform for engineering students, and an <strong>AI-Augmented DevSecOps Platform</strong> that folds security and observability into every stage of the pipeline.</p>
     </td>
     <td width="50%" valign="top">
       <h3>Quick Profile</h3>
       <ul>
-        <li><strong>Role:</strong> DevOps | MLOps | AI Engineering | QA Engineering</li>
-        <li><strong>Stack:</strong> Python, AWS, Docker, Kubernetes, Terraform</li>
-        <li><strong>AI Focus:</strong> LangChain Agents, MLflow, HuggingFace</li>
-        <li><strong>Exploring:</strong> DevSecOps, Agentic AI</li>
+        <li><strong>Roles:</strong> DevOps Engineer · MLOps Engineer</li>
+        <li><strong>Roles:</strong> QA Engineer (Manual + Automation)</li>
+        <li><strong>Core Stack:</strong> Python, Docker, Kubernetes, Terraform, AWS</li>
+        <li><strong>QA Stack:</strong> Selenium, Jira, Manual Test Design, SQL</li>
+        <li><strong>Education:</strong> B.Tech, CS &amp; Business Systems — VTU, 2026</li>
+        <li><strong>Location:</strong> Bengaluru, India</li>
         <li><strong>Contact:</strong> kiranrathod4299@gmail.com</li>
       </ul>
     </td>
@@ -38,9 +41,9 @@
 
 ## Tech Stack
 
-### DevOps & Infrastructure
+### DevOps & Cloud Infrastructure
 
-<img src="https://skillicons.dev/icons?i=docker,kubernetes,aws,linux,git,github,githubactions,vscode,terraform" />
+<img src="https://skillicons.dev/icons?i=docker,kubernetes,aws,terraform,linux,git,github,githubactions,vscode" />
 
 &nbsp;
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
@@ -50,7 +53,17 @@
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+
+---
+
+### QA — Manual & Automation Testing
+
+![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white)
+![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
+![PyTest](https://img.shields.io/badge/PyTest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
+![TestNG](https://img.shields.io/badge/TestNG-EF2D5E?style=flat-square&logo=testinglibrary&logoColor=white)
+![Manual Testing](https://img.shields.io/badge/Manual_Testing-6C63FF?style=flat-square&logo=checkmarx&logoColor=white)
 
 ---
 
@@ -79,8 +92,10 @@
 
 ---
 
-### AI & Machine Learning
+### Languages, Data & AI/ML
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
 ![ScikitLearn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
@@ -89,20 +104,15 @@
 
 ---
 
-### Data
-
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-
----
-
 ## Principles I Work By
 
-> **"Automate everything that can be automated. Observe everything that runs. Secure everything that ships."**
+> **"Automate everything that can be automated. Test everything that ships. Observe everything that runs."**
 
-- If it is not in a pipeline, it does not exist
+- If it's not in a pipeline, it doesn't exist
+- If it's not tested, it's not done
 - A model not monitored is a model not deployed
-- Security is not a phase, it is the whole pipeline
-- Infrastructure is code. Always.
+- Security and quality are not phases — they run through the whole pipeline
+- Infrastructure is code. Test cases are documentation. Both matter.
 
 ---
 
