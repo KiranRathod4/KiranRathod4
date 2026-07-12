@@ -18,9 +18,7 @@
   <tr>
     <td width="50%" valign="top">
       <h3>The Engineer</h3>
-      <p>I work at the intersection of <strong>DevOps / MLOps automation</strong> and <strong>Quality Assurance</strong> — I build the pipelines and infrastructure that ship software reliably, and I test them thoroughly before they get there.</p>
-      <p>On one side: Docker, Kubernetes, Terraform, and CI/CD pipelines that turn infrastructure into code. On the other: manual test design and Selenium-driven automation that keeps releases honest.</p>
-      <p>Currently building <strong>Taiyaar</strong>, a placement-prep SaaS platform for engineering students, and an <strong>AI-Augmented DevSecOps Platform</strong> that folds security and observability into every stage of the pipeline.</p>
+      <p> Code. Cloud. Quality. Repeat..</p>
     </td>
     <td width="50%" valign="top">
       <h3>Quick Profile</h3>
@@ -28,9 +26,9 @@
         <li><strong>Roles:</strong> DevOps Engineer · MLOps Engineer</li>
         <li><strong>Roles:</strong> QA Engineer (Manual + Automation)</li>
         <li><strong>Core Stack:</strong> Python, Docker, Kubernetes, Terraform, AWS</li>
-        <li><strong>QA Stack:</strong> Selenium, Jira, Manual Test Design, SQL</li>
+        <li><strong>QA Stack:</strong> Selenium, Jira, Manual Test Design, API Testing, SQL</li>
         <li><strong>Education:</strong> B.Tech, CS &amp; Business Systems — VTU, 2026</li>
-        <li><strong>Location:</strong> Bengaluru, India</li>
+        <li><strong>Location:</strong> Bidar --> Belagavi -->Bengaluru, India</li>
         <li><strong>Contact:</strong> kiranrathod4299@gmail.com</li>
       </ul>
     </td>
@@ -56,14 +54,21 @@
 
 ---
 
-### QA — Manual & Automation Testing
+### QA — Manual, API & Automation Testing
 
 ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white)
 ![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
+![Manual Testing](https://img.shields.io/badge/Manual_Testing-6C63FF?style=flat-square&logo=checkmarx&logoColor=white)
 ![PyTest](https://img.shields.io/badge/PyTest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
 ![TestNG](https://img.shields.io/badge/TestNG-EF2D5E?style=flat-square&logo=testinglibrary&logoColor=white)
-![Manual Testing](https://img.shields.io/badge/Manual_Testing-6C63FF?style=flat-square&logo=checkmarx&logoColor=white)
+
+**API Testing**
+
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
+![REST Assured](https://img.shields.io/badge/REST_Assured-3E6EB4?style=flat-square&logo=java&logoColor=white)
+![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=flat-square&logo=swagger&logoColor=black)
+![cURL](https://img.shields.io/badge/cURL-073551?style=flat-square&logo=curl&logoColor=white)
+![JSON](https://img.shields.io/badge/JSON-000000?style=flat-square&logo=json&logoColor=white)
 
 ---
 
@@ -104,17 +109,6 @@
 
 ---
 
-## Principles I Work By
-
-> **"Automate everything that can be automated. Test everything that ships. Observe everything that runs."**
-
-- If it's not in a pipeline, it doesn't exist
-- If it's not tested, it's not done
-- A model not monitored is a model not deployed
-- Security and quality are not phases — they run through the whole pipeline
-- Infrastructure is code. Test cases are documentation. Both matter.
-
----
 
 ## Support My Work
 
