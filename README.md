@@ -4,11 +4,6 @@
   <img alt="Kiran Rathod — DevOps · MLOps · QA Automation" src="./dark.svg" width="100%" />
 </picture>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=KiranRathod4&label=Profile+Views&color=7C3AED&style=for-the-badge" />
-  &nbsp;
-  <img src="https://img.shields.io/github/followers/KiranRathod4?label=Followers&style=for-the-badge&color=0F172A&labelColor=0f0c29" />
-</p>
 
 ---
 
