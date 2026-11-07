@@ -1,137 +1,37 @@
-<!-- Sheet 1 of 2: identity. The stamp lands about two seconds after load. -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/header-light.svg" />
-  <img alt="Engineering drawing of Kiran Rathod, SDET and DevOps engineer. Code. Cloud. Quality. Repeat. A test harness asserts against web, api and db pods in a Kubernetes cluster built with Terraform on AWS. Title block status: PASSED." src="./assets/header-dark.svg" width="100%" />
-</picture>
+<h1 align="center">Kiran Rathod</h1>
+
+<p align="center">
+  <b>SDET + DevOps engineer</b><br/>
+  <sub>Code. Cloud. Quality. Repeat.</sub>
+</p>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=KiranRathod4&label=Profile%20views&color=0A2A4F&style=flat-square" alt="Profile views" />
-  <img src="https://img.shields.io/badge/Open_to-SDET_%26_DevOps_roles-FFB23F?style=flat-square&labelColor=0A2A4F" alt="Open to SDET and DevOps roles" />
+  <img src="https://img.shields.io/badge/Fintech-cross--border_payments-FFB23F?style=flat-square&labelColor=0A2A4F" alt="Fintech: cross-border payments" />
   <img src="https://img.shields.io/badge/Flaky_tests-0-5BE49B?style=flat-square&labelColor=0A2A4F" alt="Flaky tests: 0" />
   <img src="https://img.shields.io/badge/Friday_deploys-skipped-8FB0D3?style=flat-square&labelColor=0A2A4F" alt="Friday deploys: skipped" />
 </p>
 
-I'm an SDET who also owns the pipeline. I design test cases, automate them with Playwright, PyTest and REST Assured, wire them into CI, and build the Docker, Kubernetes and Terraform infrastructure they run against. The goal is simple: a release should be something the pipeline proves, not something a person hopes.
-
-I break things in staging so they don't break in production.
-
 <br/>
 
-## About me, as a manifest
+I'm an SDET who also owns the pipeline. I design test cases, automate them with Playwright, PyTest and REST Assured, let AI agents explore the app through Playwright MCP, and build the Docker, Kubernetes and Terraform setup it all runs on.
 
-```yaml
-apiVersion: people/v1
-kind: Engineer
-metadata:
-  name: kiran-rathod
-  labels:
-    role: sdet
-    also: devops
-    location: bengaluru-in
-spec:
-  education:
-    degree: B.Tech, Computer Science & Business Systems
-    university: VTU
-    graduation: 2026
-  quality:
-    automation: [Selenium, PyTest, TestNG]
-    api: [REST Assured, Postman, Swagger, cURL]
-    manual: [test case design, exploratory testing, defect tracking in Jira]
-    data: [SQL]
-  delivery:
-    ci: GitHub Actions
-    containers: [Docker, Kubernetes, Helm]
-    infrastructure: Terraform on AWS
-    security: [SonarQube, Trivy]
-    observability: [Prometheus, Grafana]
-  readinessProbe:
-    exec: ["pytest", "-q"]        # not ready until the suite is green
-  resources:
-    limits:
-      flakyTests: 0
-```
+**Currently:** SDET + DevOps at a stealth-mode fintech building cross-border payments, where a bug isn't a broken button, it's money in the wrong place.
 
-<br/>
+Based in Bengaluru, India. B.Tech in Computer Science & Business Systems, VTU 2026.
 
-## My test suite
-
-```diff
-$ pytest tests/test_kiran.py -v
-
-+ test_kiran.py::test_designs_test_cases_before_scripts            PASSED   [ 12%]
-+ test_kiran.py::test_automates_ui_flows_with_selenium             PASSED   [ 25%]
-+ test_kiran.py::test_validates_api_contracts_with_rest_assured    PASSED   [ 37%]
-+ test_kiran.py::test_quality_gate_blocks_bad_merges               PASSED   [ 50%]
-+ test_kiran.py::test_images_are_scanned_before_deploy             PASSED   [ 62%]
-+ test_kiran.py::test_infrastructure_is_reproducible               PASSED   [ 75%]
-+ test_kiran.py::test_zero_tolerance_for_flaky_tests               PASSED   [ 87%]
-- test_kiran.py::test_deploy_on_friday_evening                     SKIPPED (no Friday-evening deploys) [100%]
-
-+ ===================== 7 passed, 1 skipped in 0.42s =====================
-```
-
-<details>
-<summary><b>View the test source</b></summary>
-<br/>
-
-```python
-import pytest
-from people import Kiran
-
-
-@pytest.fixture
-def kiran():
-    return Kiran(role="SDET", also="DevOps", city="Bengaluru")
-
-
-def test_designs_test_cases_before_scripts(kiran):
-    plan = kiran.plan("checkout flow")
-    assert plan.test_cases and not plan.scripts   # design first, automate second
-
-
-def test_automates_ui_flows_with_selenium(kiran):
-    assert "Selenium" in kiran.automation
-
-
-def test_validates_api_contracts_with_rest_assured(kiran):
-    assert kiran.api_tests.cover("status", "schema", "auth", "edge cases")
-
-
-def test_quality_gate_blocks_bad_merges(kiran):
-    assert kiran.pipeline.gate("SonarQube").blocks_on_failure
-
-
-def test_images_are_scanned_before_deploy(kiran):
-    assert kiran.pipeline.step("trivy").runs_before("deploy")
-
-
-def test_infrastructure_is_reproducible(kiran):
-    assert kiran.terraform.plan() == kiran.terraform.plan()   # same input, same infra
-
-
-def test_zero_tolerance_for_flaky_tests(kiran):
-    assert kiran.flaky_tests == 0
-
-
-@pytest.mark.skip(reason="no Friday-evening deploys")
-def test_deploy_on_friday_evening(kiran):
-    kiran.deploy(env="prod", day="Friday", time="18:30")
-```
-
-</details>
+> Test cases before scripts. Infrastructure as code. A flaky test is a failing test.
 
 <br/>
 
 ## How I ship
 
-Every change goes through the same eight stations. Tests run before anything is built, images are scanned before anything is deployed, and whatever production tells me goes back into the backlog.
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/pipeline-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/pipeline-light.svg" />
-  <img alt="Delivery pipeline: 1 commit (git, GitHub Actions), 2 quality gate (SonarQube), 3 unit tests (PyTest, TestNG), 4 API tests (REST Assured, Postman), 5 UI tests (Selenium plus exploratory), 6 build and scan (Docker, Trivy), 7 deploy (Terraform, Helm, Kubernetes on AWS), 8 observe (Prometheus, Grafana). Defects and alerts loop back to the backlog in Jira." src="./assets/pipeline-dark.svg" width="100%" />
-</picture>
+<p align="center">
+  <kbd>commit</kbd> → <kbd>quality gate</kbd> → <kbd>unit tests</kbd> → <kbd>API tests</kbd> → <kbd>UI tests + agents</kbd> → <kbd>build + scan</kbd> → <kbd>deploy</kbd> → <kbd>observe</kbd>
+</p>
+<p align="center">
+  <sub>Results report to Testiny. Defects and alerts loop back to Linear.</sub>
+</p>
 
 <br/>
 
@@ -143,9 +43,14 @@ Every change goes through the same eight stations. Tests run before anything is 
       <h3>Quality engineering</h3>
       <p>
         <b>UI automation</b><br/>
-        <img src="https://img.shields.io/badge/Selenium-0A2A4F?style=flat-square&logo=selenium&logoColor=43B02A" alt="Selenium" />
+        <img src="https://img.shields.io/badge/Playwright-0A2A4F?style=flat-square&logo=playwright&logoColor=2EAD33" alt="Playwright" />
         <img src="https://img.shields.io/badge/PyTest-0A2A4F?style=flat-square&logo=pytest&logoColor=0A9EDC" alt="PyTest" />
         <img src="https://img.shields.io/badge/TestNG-0A2A4F?style=flat-square" alt="TestNG" />
+      </p>
+      <p>
+        <b>Agentic testing</b><br/>
+        <img src="https://img.shields.io/badge/Playwright_MCP-0A2A4F?style=flat-square&logo=modelcontextprotocol&logoColor=white" alt="Playwright MCP" />
+        <img src="https://img.shields.io/badge/Agentic_testing-0A2A4F?style=flat-square" alt="Agentic testing" />
       </p>
       <p>
         <b>API testing</b><br/>
@@ -159,7 +64,8 @@ Every change goes through the same eight stations. Tests run before anything is 
         <b>Manual testing and tracking</b><br/>
         <img src="https://img.shields.io/badge/Test_case_design-0A2A4F?style=flat-square" alt="Test case design" />
         <img src="https://img.shields.io/badge/Exploratory_testing-0A2A4F?style=flat-square" alt="Exploratory testing" />
-        <img src="https://img.shields.io/badge/Jira-0A2A4F?style=flat-square&logo=jira&logoColor=2684FF" alt="Jira" />
+        <img src="https://img.shields.io/badge/Testiny-0A2A4F?style=flat-square" alt="Testiny" />
+        <img src="https://img.shields.io/badge/Linear-0A2A4F?style=flat-square&logo=linear&logoColor=5E6AD2" alt="Linear" />
         <img src="https://img.shields.io/badge/SQL-0A2A4F?style=flat-square&logo=mysql&logoColor=4479A1" alt="SQL" />
       </p>
     </td>
@@ -209,51 +115,35 @@ Every change goes through the same eight stations. Tests run before anything is 
 </p>
 </details>
 
-<!--
-## Featured work
-Pin cards for your best SDET / DevOps repos. Replace REPO_NAME, then delete these comment markers.
-
-<p>
-  <a href="https://github.com/KiranRathod4/REPO_NAME">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=KiranRathod4&repo=REPO_NAME&bg_color=0A2A4F&title_color=FFB23F&text_color=E6EEF7&icon_color=5BE49B&border_color=1D4E89" />
-      <img src="https://github-readme-stats.vercel.app/api/pin/?username=KiranRathod4&repo=REPO_NAME&bg_color=F3F7FC&title_color=B86E00&text_color=0A2A4F&icon_color=13874B&border_color=C9D8EA" alt="REPO_NAME" />
-    </picture>
-  </a>
-</p>
--->
-
-<br/>
-
-## Activity
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=KiranRathod4&show_icons=true&hide_title=true&include_all_commits=true&bg_color=0A2A4F&text_color=E6EEF7&icon_color=5BE49B&title_color=FFB23F&border_color=1D4E89" />
-    <img height="165" src="https://github-readme-stats.vercel.app/api?username=KiranRathod4&show_icons=true&hide_title=true&include_all_commits=true&bg_color=F3F7FC&text_color=0A2A4F&icon_color=13874B&title_color=B86E00&border_color=C9D8EA" alt="GitHub stats" />
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=KiranRathod4&background=0A2A4F&border=1D4E89&stroke=1D4E89&ring=FFB23F&fire=FFB23F&currStreakNum=E6EEF7&sideNums=E6EEF7&currStreakLabel=FFB23F&sideLabels=8FB0D3&dates=8FB0D3" />
-    <img height="165" src="https://streak-stats.demolab.com?user=KiranRathod4&background=F3F7FC&border=C9D8EA&stroke=C9D8EA&ring=B86E00&fire=B86E00&currStreakNum=0A2A4F&sideNums=0A2A4F&currStreakLabel=B86E00&sideLabels=4D6B8C&dates=4D6B8C" alt="Contribution streak" />
-  </picture>
-</p>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KiranRathod4/KiranRathod4/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KiranRathod4/KiranRathod4/output/github-snake.svg" />
-  <img alt="A snake eating my contribution graph" src="https://raw.githubusercontent.com/KiranRathod4/KiranRathod4/output/github-snake.svg" />
-</picture>
-
 <br/>
 
 ## Get in touch
 
-Hiring for QA automation, SDET or DevOps work, or want a second pair of eyes on a flaky suite? Reach out.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Work with me</h3>
+      <p>Want to talk test automation, payments QA or CI/CD, or need a second pair of eyes on a flaky test suite? Email is the fastest way to reach me.</p>
+      <p><code>kiranrathod4299@gmail.com</code></p>
+      <p>
+        <a href="mailto:kiranrathod4299@gmail.com"><img src="https://img.shields.io/badge/Email-0A2A4F?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Email" /></a>
+        <a href="https://www.linkedin.com/in/kiranrathod05/"><img src="https://img.shields.io/badge/LinkedIn-0A2A4F?style=for-the-badge&logo=linkedin&logoColor=0A66C2" alt="LinkedIn" /></a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>Elsewhere</h3>
+      <p>Code, side projects and the occasional photo.</p>
+      <p>
+        <a href="https://github.com/KiranRathod4"><img src="https://img.shields.io/badge/GitHub-0A2A4F?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+        <a href="https://www.instagram.com/kiran_nnnn05/"><img src="https://img.shields.io/badge/Instagram-0A2A4F?style=for-the-badge&logo=instagram&logoColor=E4405F" alt="Instagram" /></a>
+      </p>
+      <p>If something here saved you time:</p>
+      <p>
+        <a href="https://buymeacoffee.com/kiranrathod"><img src="https://img.shields.io/badge/Buy_me_a_coffee-FFB23F?style=for-the-badge&logo=buymeacoffee&logoColor=0A2A4F" alt="Buy me a coffee" /></a>
+      </p>
+    </td>
+  </tr>
+</table>
 
-<p>
-  <a href="mailto:kiranrathod4299@gmail.com"><img src="https://img.shields.io/badge/Email-0A2A4F?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://www.linkedin.com/in/kiranrathod05/"><img src="https://img.shields.io/badge/LinkedIn-0A2A4F?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://github.com/KiranRathod4"><img src="https://img.shields.io/badge/GitHub-0A2A4F?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-  <a href="https://www.instagram.com/kiran_nnnn05/"><img src="https://img.shields.io/badge/Instagram-0A2A4F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
-  <a href="https://buymeacoffee.com/kiranrathod"><img src="https://img.shields.io/badge/Buy_me_a_coffee-FFB23F?style=for-the-badge&logo=buymeacoffee&logoColor=0A2A4F" alt="Buy me a coffee" /></a>
-</p>
+<br/>
+
