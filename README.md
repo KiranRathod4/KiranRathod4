@@ -16,7 +16,7 @@
 
 I'm an SDET who also owns the pipeline. I design test cases, automate them with Playwright, PyTest and REST Assured, let AI agents explore the app through Playwright MCP, and build the Docker, Kubernetes and Terraform setup it all runs on.
 
-**Currently:** SDET + DevOps at a stealth-mode fintech building cross-border payments, where a bug isn't a broken button, it's money in the wrong place.
+**Currently:** SDET + DevOps at a Tier 1  stealth-mode fintech building cross-border payments, where a bug isn't a broken button, it's money in the wrong place.
 
 Based in Bengaluru, India. B.Tech in Computer Science & Business Systems, VTU 2026.
 
